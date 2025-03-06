@@ -25,15 +25,3 @@ app.get('/', (req, res) => {
 });
 
 // Uygulama dinlemeye başlasın
-app.listen(port, () => {
-  console.log(`Sunucu http://localhost:${port} adresinde çalışıyor...`);
-});
-const date = require('date-and-time') 
-const now1  =  new Date(); 
-const now2  =  new Date(); 
-const value = date.isSameDay(now1,now2); 
-// Display the result 
-if(value) 
-    console.log("Both dates are same") 
-else
-    console.log("Both dates are not same");
